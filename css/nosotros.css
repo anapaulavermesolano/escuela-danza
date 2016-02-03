@@ -1,0 +1,160 @@
+header {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	z-index: 15;
+}
+.escuela {
+	color: #4F5B79;
+	text-align: center;
+	margin-top: 10px;
+}
+li {
+	color: #4F5B79;
+	display: inline-block;
+	margin: 25px 35px;
+}
+ul, .instructores, .danza {
+	text-align: center;
+}
+.quit {
+	padding-top: 100px;
+}
+.fondo1 {
+	background: url("../img/dance_7.jpg")no-repeat;
+    background-size: 150% 175%;
+    height: 457px;
+    background-position: 0px -130px;
+}
+.caja1 {
+	width: 550px;
+	background-color: rgba(0, 0, 0, 0.55);
+	padding: 60px 20px;
+	margin: 130px auto;
+}
+.title, .nosotros {
+	color: white;
+	text-align: center;
+	
+}
+.title {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+.caja2 {
+	width: 250px;
+}
+.line {
+	border: 1px solid #242225;
+	width: 240px;
+	margin: 20px 0px;
+}
+.line, .pilar, .parrafo1 {
+	text-align: center;
+	color: #242225;
+}
+.fondo2 {
+	background: #B0B3B9 url("../img/cubes.png")repeat;
+	width: 100%;
+}
+.fondo2, .fondo3 {
+	padding: 50px 0px;
+}
+.fotos {
+	width: 220px;
+    position: absolute;
+    clip: rect(0px,225px,170px,15px);
+}
+.nombres {
+	font-size: 20px;
+	margin:210px 17px 17px;
+}
+.instructores {
+    margin-bottom: 50px;
+}
+.parrafo2 {
+	margin-bottom: 80px;
+	margin:0px -13px 45px 15px;
+}
+.crop img{
+ margin:-20px -15px -40px -55px;
+ }
+ .danza {
+	font-size: 30px;
+	color: #727272;
+	padding: 80px;
+}
+.fondo4 {
+	background-color: #192951;
+	width: 100%;
+	padding: 30px;
+}
+.derechos {
+	color: white;
+	font-size: 12px;
+}
+.fondo3 {
+	background-color: #E4E5E0;
+	width: 100%;
+}
+.contactanos {
+	color: #2F3D61;
+	font-size: 30px;
+}
+input, .messaje {
+	display: block;
+	width: 450px;
+	padding: 7px 34px;
+	margin: 12px 0px;
+	border-radius: 3px;
+	border: 1px #ccc solid;
+}
+.fa-envelope, .fa-pencil, .fa-user {
+	position: absolute;
+	margin: 8px 10px;
+}
+.enviar {
+	background-color: #192951;
+	color: white;
+	padding: 15px;
+	font-size: 15px;
+}
+.fondo5 {
+    background: url(../img/shoes_1.jpg)no-repeat;
+    background-size: 60% 100%;
+    height: 587px;
+    background-position: 470px 0px;
+    padding: 80px 0px;
+}
+.derechos {
+	color: white;
+}
+a { 
+	text-decoration: none; 
+}
+.color:hover, .danza:hover { 
+	text-shadow: 2px 2px 2px #aaa;
+}
+.escuela:hover { 
+	letter-spacing: 1px; 
+	color: #192951;
+	font-size: 35px;
+}
+.derechos:hover, .enviar:hover {
+	color: #B1DFDD;
+	font-size: 17px;
+}
+.parrafo1:hover, .parrafo2:hover {
+	font-size: 17px;
+	color: #003078;
+}
+.pilar:hover, .nombres:hover {
+	font-size: 23px;
+	color: #032E4E;
+}
+.line:hover {
+	border: dashed 2px #1475A8;
+}
+.fotos:hover {
+	opacity: 0.5;
+}
